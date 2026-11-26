@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #1e293b;
+    margin: 0;
+    padding: 30px 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.cart {
+    background-color: #2563eb;
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 22px;
+    max-width: 640px;
+    margin: 0 auto 30px;
+}
+
+#cart-count {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.products {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    background-color: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 310px;
+    max-width: 100%;
+}
+
+.product h2 {
+    margin-top: 0;
+}
+
+.product p {
+    color: #64748b;
+    margin-bottom: 20px;
+}
+
+button {
+    border: none;
+    padding: 12px 15px;
+    border-radius: 6px;
+    color: white;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 4px;
+    transition: background-color 0.2s;
+}
+
+#add-shirt,
+#add-jeans {
+    background-color: #16a34a;
+}
+
+#remove-shirt,
+#remove-jeans {
+    background-color: #dc2626;
+}
+
+#add-shirt:hover,
+#add-jeans:hover {
+    background-color: #15803d;
+}
+
+#remove-shirt:hover,
+#remove-jeans:hover {
+    background-color: #b91c1c;
+}
+
+/* ========== GESTIONE OSSERVATORI ========== */
+
+.observer-panel {
+    background-color: white;
+    max-width: 640px;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.observer-panel h2 {
+    margin-top: 0;
+    text-align: center;
+}
+
+.observer-option {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 15px;
+    margin-bottom: 10px;
+    background-color: #f0f4f8;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.observer-option:hover {
+    background-color: #e2e8f0;
+}
+
+.observer-option input {
+    width: 20px;
+    height: 20px;
+    accent-color: #2563eb;
+    cursor: pointer;
+}
+
+.observer-status {
+    text-align: center;
+    padding-top: 15px;
+    border-top: 1px solid #e2e8f0;
+    font-size: 18px;
+}
+
+#observer-count {
+    color: #2563eb;
+    font-size: 24px;
+}

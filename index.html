@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Esercizio Observer Pattern</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Observer Pattern - Carrello</h1>
+
+    <div class="cart">
+        Articoli nel carrello:
+        <strong id="cart-count">0</strong>
+    </div>
+
+    <div class="products">
+
+        <div class="product">
+            <h2>T-shirt</h2>
+            <p>Codice: SKU-1</p>
+
+            <button id="add-shirt">Aggiungi +</button>
+            <button id="remove-shirt">Rimuovi -</button>
+        </div>
+
+        <div class="product">
+            <h2>Jeans</h2>
+            <p>Codice: SKU-2</p>
+
+            <button id="add-jeans">Aggiungi +</button>
+            <button id="remove-jeans">Rimuovi -</button>
+        </div>
+
+    </div>
+
+    <div class="observer-panel">
+
+    <h2>Gestione degli osservatori</h2>
+
+    <label class="observer-option">
+        <input type="checkbox" id="toggle-counter" checked>
+        Observer 1 - Contatore HTML
+    </label>
+
+    <label class="observer-option">
+        <input type="checkbox" id="toggle-logger" checked>
+        Observer 2 - Console Logger
+    </label>
+
+    <p class="observer-status">
+        Osservatori iscritti:
+        <strong id="observer-count">2</strong>
+    </p>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
