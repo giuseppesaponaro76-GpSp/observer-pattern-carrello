@@ -41,6 +41,14 @@ la simulazione di un carrello e-commerce interattivo.
 Aprire il file index.html nel browser oppure
 utilizzare l'estensione Live Server di Visual Studio Code.
 
+## Demo online
+
+[Avvia il carrello interattivo](https://giuseppesaponaro76-gpsp.github.io/observer-pattern-carrello/)
+
+## Codice sorgente
+
+[Repository GitHub](https://github.com/giuseppesaponaro76-GpSp/observer-pattern-carrello)
+
 ## Autore
 
 Giuseppe Saponaro
